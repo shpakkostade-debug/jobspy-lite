@@ -1,0 +1,4 @@
+include LICENSE
+include DISCLAIMER.md
+include README.md
+recursive-include skills *.md
