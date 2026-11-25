@@ -1,6 +1,6 @@
 ---
 name: jobspy-lite
-description: Use when the user wants to search job boards and get structured job data from the terminal or Python — Indeed, LinkedIn, Arbeitsagentur (Bundesagentur für Arbeit) and StepStone — e.g. "find backend jobs in Berlin", "collect vacancies into JSONL/CSV", "scrape Arbeitsagentur for the last 24 hours", "dedupe the same job across boards", or "fetch job descriptions". CLI is `jobspy-lite`; install with `uv tool install "git+https://github.com/shpakkostade-debug/jobspy-lite"`, `pipx install`, or `pip install`.
+description: Use when the user wants to search job boards and get structured job data from the terminal or Python — Indeed, LinkedIn, Arbeitsagentur (Bundesagentur für Arbeit) and StepStone — e.g. "find backend jobs in Berlin", "collect vacancies into JSONL/CSV", "scrape Arbeitsagentur for the last 24 hours", "dedupe the same job across boards", or "fetch job descriptions". CLI is `jobspy-lite`; install with `uv tool install "git+https://github.com/koztix/jobspy-lite"`, `pipx install`, or `pip install`.
 ---
 
 # jobspy-lite
@@ -29,11 +29,11 @@ or anything requiring an official partner API. See the disclaimer at the end.
 Prefer an isolated install so the CLI is on `PATH`:
 
 ```bash
-uv tool install "git+https://github.com/shpakkostade-debug/jobspy-lite"
+uv tool install "git+https://github.com/koztix/jobspy-lite"
 # or
-pipx install "git+https://github.com/shpakkostade-debug/jobspy-lite"
+pipx install "git+https://github.com/koztix/jobspy-lite"
 # or into the current environment
-pip install "git+https://github.com/shpakkostade-debug/jobspy-lite"
+pip install "git+https://github.com/koztix/jobspy-lite"
 ```
 
 Verify: `jobspy-lite --version` (prints `jobspy-lite 0.1.0`).

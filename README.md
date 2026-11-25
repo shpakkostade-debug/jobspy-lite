@@ -37,17 +37,17 @@ Python 3.10+ is required.
 
 ```bash
 # isolated, no manual venv
-uv tool install "git+https://github.com/shpakkostade-debug/jobspy-lite"
-pipx install "git+https://github.com/shpakkostade-debug/jobspy-lite"
+uv tool install "git+https://github.com/koztix/jobspy-lite"
+pipx install "git+https://github.com/koztix/jobspy-lite"
 
 # or into the current environment
-pip install "git+https://github.com/shpakkostade-debug/jobspy-lite"
+pip install "git+https://github.com/koztix/jobspy-lite"
 ```
 
 From source:
 
 ```bash
-git clone https://github.com/shpakkostade-debug/jobspy-lite
+git clone https://github.com/koztix/jobspy-lite
 cd jobspy-lite
 python -m venv .venv
 .venv/Scripts/python -m pip install -e .      # Linux/macOS: .venv/bin/python
